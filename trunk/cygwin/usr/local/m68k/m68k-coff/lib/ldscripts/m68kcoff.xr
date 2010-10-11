@@ -1,0 +1,29 @@
+/* Script for ld -r: link without relocation */
+OUTPUT_FORMAT("coff-m68k")
+SEARCH_DIR("/usr/local/m68k/m68k-coff/lib");
+PROVIDE (__stack = 0);
+SECTIONS
+{
+  .text  : {
+    *(.text)
+  }
+  .data : {
+    *(.data)
+    ;
+  }
+  .bss : {
+    ;
+    *(.bss)
+    *(COMMON)
+     ;
+     ;
+  }
+  .stab  0  :
+  {
+    [ .stab ]
+  }
+  .stabstr  0  :
+  {
+    [ .stabstr ]
+  }
+}

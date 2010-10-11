@@ -1,0 +1,118 @@
+*asm:
+%{m68851}%{mno-68851}%{m68881}%{mno-68881}%{msoft-float:-mno-68881} %{m68000}%{m68302}%{mc68000}%{m68010}%{m68020}%{mc68020}%{m68030}%{m68040}%{m68020-40:-mc68040} %{m68020-60:-mc68040} %{m68060}%{mcpu32}%{m68332}%{m5200}%{m5206e}%{m528x}%{m5307}%{m5407}%{!mc68000:%{!m68000:%{!m68302:%{!m68010:%{!mc68020:%{!m68020:%{!m68030:%{!m68040:%{!m68020-40:%{!m68020-60:%{!m68060:%{!mcpu32:%{!m68332:%{!m5200:%{!m5206e:%{!m528x:%{!m5307:%{!m5407:%(asm_cpu_default)}}}}}}}}}}}}}}}}}} %{fPIC:--pcrel} %{fpic:--pcrel} %{msep-data:--pcrel} %{mid-shared-library:--pcrel} 
+
+*asm_debug:
+%{g*:--gstabs}
+
+*asm_final:
+
+
+*asm_options:
+%a %Y %{c:%W{o*}%{!o*:-o %w%b%O}}%{!c:-o %d%w%u%O}
+
+*invoke_as:
+%{!S:-o %|.s |
+ as %(asm_options) %m.s %A }
+
+*cpp:
+
+
+*cpp_options:
+%(cpp_unique_options) %1 %{m*} %{std*} %{ansi} %{W*&pedantic*} %{w} %{f*} %{g*:%{!g0:%{!fno-working-directory:-fworking-directory}}} %{O*} %{undef}
+
+*cpp_debug_options:
+%{d*}
+
+*cpp_unique_options:
+%{C|CC:%{!E:%eGCC does not support -C or -CC without -E}} %{!Q:-quiet} %{nostdinc*} %{C} %{CC} %{v} %{I*} %{P} %I %{MD:-MD %{!o:%b.d}%{o*:%.d%*}} %{MMD:-MMD %{!o:%b.d}%{o*:%.d%*}} %{M} %{MM} %{MF*} %{MG} %{MP} %{MQ*} %{MT*} %{!E:%{!M:%{!MM:%{MD|MMD:%{o*:-MQ %*}}}}} %{trigraphs} %{remap} %{g3:-dD} %{H} %C %{D*&U*&A*} %{i*} %Z %i %{E|M|MM:%W{o*}}
+
+*trad_capable_cpp:
+cc1 -E %{traditional|ftraditional|traditional-cpp:-traditional-cpp}
+
+*cc1:
+
+
+*cc1_options:
+%{pg:%{fomit-frame-pointer:%e-pg and -fomit-frame-pointer are incompatible}} %1 %{!Q:-quiet} -dumpbase %B %{d*} %{m*} %{a*} %{c|S:%{o*:-auxbase-strip %*}%{!o*:-auxbase %b}}%{!c:%{!S:-auxbase %b}} %{g*} %{O*} %{W*&pedantic*} %{w} %{std*} %{ansi} %{v:-version} %{pg:-p} %{p} %{f*} %{undef} %{Qn:-fno-ident} %{--help:--help} %{--target-help:--target-help} %{!fsyntax-only:%{S:%W{o*}%{!o*:-o %b.s}}} %{fsyntax-only:-o %j} %{-param*}
+
+*cc1plus:
+
+
+*link_gcc_c_sequence:
+%G %L %G
+
+*endfile:
+
+
+*link:
+
+
+*lib:
+-lc
+
+*libgcc:
+-lgcc
+
+*startfile:
+
+
+*switches_need_spaces:
+
+
+*cross_compile:
+1
+
+*version:
+3.4.2
+
+*multilib:
+. !m68000 !m68020 !m5200 !mcpu32 !m68040 !m68060 !m68881 !msoft-float;m68000 m68000 !m68020 !m5200 !mcpu32 !m68040 !m68060 !m68881 !msoft-float;m68020 !m68000 m68020 !m5200 !mcpu32 !m68040 !m68060 !m68881 !msoft-float;m5200 !m68000 !m68020 m5200 !mcpu32 !m68040 !m68060 !m68881 !msoft-float;mcpu32 !m68000 !m68020 !m5200 mcpu32 !m68040 !m68060 !m68881 !msoft-float;m68040 !m68000 !m68020 !m5200 !mcpu32 m68040 !m68060 !m68881 !msoft-float;m68060 !m68000 !m68020 !m5200 !mcpu32 !m68040 m68060 !m68881 !msoft-float;m68881 !m68000 !m68020 !m5200 !mcpu32 !m68040 !m68060 m68881 !msoft-float;msoft-float !m68000 !m68020 !m5200 !mcpu32 !m68040 !m68060 !m68881 msoft-float;m68000/m68881 m68000 !m68020 !m5200 !mcpu32 !m68040 !m68060 m68881 !msoft-float;m68020/m68881 !m68000 m68020 !m5200 !mcpu32 !m68040 !m68060 m68881 !msoft-float;m68020/msoft-float !m68000 m68020 !m5200 !mcpu32 !m68040 !m68060 !m68881 msoft-float;m68040/msoft-float !m68000 !m68020 !m5200 !mcpu32 m68040 !m68060 !m68881 msoft-float;m68060/msoft-float !m68000 !m68020 !m5200 !mcpu32 !m68040 m68060 !m68881 msoft-float;
+
+*multilib_defaults:
+m68020 m68881
+
+*multilib_extra:
+
+
+*multilib_matches:
+mc68000 m68000;m68302 m68000;m68332 mcpu32;mc68020 m68020;m68000 m68000;m68020 m68020;m5200 m5200;mcpu32 mcpu32;m68040 m68040;m68060 m68060;m68881 m68881;msoft-float msoft-float;
+
+*multilib_exclusions:
+
+
+*multilib_options:
+m68000/m68020/m5200/mcpu32/m68040/m68060 m68881/msoft-float
+
+*linker:
+collect2
+
+*link_libgcc:
+%D
+
+*md_exec_prefix:
+
+
+*md_startfile_prefix:
+
+
+*md_startfile_prefix_1:
+
+
+*startfile_prefix_spec:
+
+
+*sysroot_suffix_spec:
+
+
+*sysroot_hdrs_suffix_spec:
+
+
+*asm_cpu_default:
+-mc68020
+
+*cc1_cpu_default:
+-m68020
+
+*link_command:
+%{!fsyntax-only:%{!c:%{!M:%{!MM:%{!E:%{!S:    %(linker) %l %{pie:-pie} %X %{o*} %{A} %{d} %{e*} %{m} %{N} %{n} %{r}    %{s} %{t} %{u*} %{x} %{z} %{Z} %{!A:%{!nostdlib:%{!nostartfiles:%S}}}    %{static:} %{L*} %(link_libgcc) %o %{fprofile-arcs|fprofile-generate:-lgcov}    %{!nostdlib:%{!nodefaultlibs:%(link_gcc_c_sequence)}}    %{!A:%{!nostdlib:%{!nostartfiles:%E}}} %{T*} }}}}}}
+
