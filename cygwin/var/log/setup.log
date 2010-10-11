@@ -1,0 +1,162 @@
+2010/09/22 10:50:18 Starting cygwin install, version 2.721
+2010/09/22 10:50:18 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2010/09/22 10:50:18 io_stream_cygfile: fopen(/etc/setup/last-cache) failed 2 No such file or directory
+2010/09/22 10:50:18 io_stream_cygfile: fopen(/etc/setup/last-action) failed 2 No such file or directory
+2010/09/22 10:50:18 io_stream_cygfile: fopen(/etc/setup/net-method) failed 2 No such file or directory
+2010/09/22 10:50:18 io_stream_cygfile: fopen(/etc/setup/net-proxy-host) failed 2 No such file or directory
+2010/09/22 10:50:18 io_stream_cygfile: fopen(/etc/setup/net-proxy-port) failed 2 No such file or directory
+2010/09/22 10:50:18 io_stream_cygfile: fopen(/etc/setup/last-mirror) failed 2 No such file or directory
+2010/09/22 10:50:18 io_stream_cygfile: fopen(/etc/setup/extrakeys) failed 2 No such file or directory
+2010/09/22 10:50:18 io_stream_cygfile: fopen(/etc/setup/chooser_window_settings) failed 2 No such file or directory
+2010/09/22 10:50:18 Current Directory: T:\Users\hkhani-cc\Downloads
+2010/09/22 10:50:18 User has backup/restore rights
+2010/09/22 10:50:18 Changing gid to Administrators
+2010/09/22 10:50:18 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2010/09/22 10:50:20 source: network install
+2010/09/22 10:50:25 root: T:\cygwin binary system
+2010/09/22 10:50:28 Selected local directory: T:\Users\hkhani-cc\Downloads
+2010/09/22 10:50:29 net: Direct
+2010/09/22 10:50:29 io_stream_cygfile: fopen(/etc/setup/mirrors-lst) failed 2 No such file or directory
+2010/09/22 10:50:31 site: http://cygwin.mirrors.hoobly.com/
+2010/09/22 10:50:35 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2010/09/22 10:50:37 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2010/09/22 10:50:39 io_stream_cygfile: fopen(/etc/setup/new-cygwin-version) failed 2 No such file or directory
+2010/09/22 10:51:47 Adding required dependency gcc-mingw-core: Selecting version 20050522-1 for installation.
+2010/09/22 10:51:47 Adding required dependency libintl3: Selecting version 0.14.5-1 for installation.
+2010/09/22 10:51:47 Adding required dependency m4: Selecting version 1.4.15-1 for installation.
+2010/09/22 10:51:47 Adding required dependency mingw-runtime: Selecting version 3.18-1 for installation.
+2010/09/22 10:51:47 Adding required dependency w32api: Selecting version 3.15-1 for installation.
+2010/09/22 10:51:49 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2010/09/22 10:51:49 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/base-cygwin/base-cygwin-2.1-1.tar.bz2
+2010/09/22 10:51:50 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/base-files/base-files-3.9-3.tar.bz2
+2010/09/22 10:51:50 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/base-passwd/base-passwd-3.1-1.tar.bz2
+2010/09/22 10:51:56 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/bash/bash-3.2.51-24.tar.bz2
+2010/09/22 10:53:06 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/binutils/binutils-2.20.51-2.tar.bz2
+2010/09/22 10:53:14 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/bzip2/bzip2-1.0.5-10.tar.bz2
+2010/09/22 10:54:05 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/coreutils/coreutils-8.5-2.tar.bz2
+2010/09/22 10:54:08 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/cygutils/cygutils-1.4.4-1.tar.bz2
+2010/09/22 10:54:41 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/cygwin/cygwin-1.7.7-1.tar.bz2
+2010/09/22 10:54:50 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/cygwin-doc/cygwin-doc-1.7-1.tar.bz2
+2010/09/22 10:54:51 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/dash/dash-0.5.6.1-2.tar.bz2
+2010/09/22 10:54:58 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/diffutils/diffutils-2.9-1.tar.bz2
+2010/09/22 10:54:59 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/editrights/editrights-1.01-2.tar.bz2
+2010/09/22 10:55:08 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/findutils/findutils-4.5.9-1.tar.bz2
+2010/09/22 10:55:12 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/flex/flex-2.5.35-1.tar.bz2
+2010/09/22 10:55:24 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gawk/gawk-3.1.8-1.tar.bz2
+2010/09/22 10:56:19 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gcc/gcc-core/gcc-core-3.4.4-999.tar.bz2
+2010/09/22 10:56:22 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gcc-mingw/gcc-mingw-core/gcc-mingw-core-20050522-1.tar.bz2
+2010/09/22 10:56:26 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gettext/gettext-0.17-11.tar.bz2
+2010/09/22 10:56:33 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/grep/grep-2.6.3-1.tar.bz2
+2010/09/22 10:57:49 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/groff/groff-1.20.1-2.tar.bz2
+2010/09/22 10:57:51 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gzip/gzip-1.3.12-2.tar.bz2
+2010/09/22 10:57:52 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/ipc-utils/ipc-utils-1.0-1.tar.bz2
+2010/09/22 10:57:57 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/less/less-436-1.tar.bz2
+2010/09/22 10:57:58 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/attr/libattr1/libattr1-2.4.43-1.tar.bz2
+2010/09/22 10:58:00 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/bzip2/libbz2_1/libbz2_1-1.0.5-10.tar.bz2
+2010/09/22 10:58:02 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gcc4/libgcc1/libgcc1-4.3.4-3.tar.bz2
+2010/09/22 10:58:07 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gmp/libgmp3/libgmp3-4.3.1-3.tar.bz2
+2010/09/22 10:58:19 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/libiconv/libiconv2/libiconv2-1.13.1-1.tar.bz2
+2010/09/22 10:58:20 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gettext/libintl3/libintl3-0.14.5-1.tar.bz2
+2010/09/22 10:58:21 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gettext/libintl8/libintl8-0.17-11.tar.bz2
+2010/09/22 10:58:22 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/xz/liblzma1/liblzma1-4.999.9beta-11.tar.bz2
+2010/09/22 10:58:26 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/ncurses/libncurses10/libncurses10-5.7-18.tar.bz2
+2010/09/22 10:58:30 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/ncurses/libncurses8/libncurses8-5.5-10.tar.bz2
+2010/09/22 10:58:34 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/ncurses/libncurses9/libncurses9-5.7-16.tar.bz2
+2010/09/22 10:58:37 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/pcre/libpcre0/libpcre0-8.02-1.tar.bz2
+2010/09/22 10:58:38 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/popt/libpopt0/libpopt0-1.6.4-4.tar.bz2
+2010/09/22 10:58:40 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/readline/libreadline7/libreadline7-6.0.3-2.tar.bz2
+2010/09/22 10:58:41 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/libsigsegv/libsigsegv2/libsigsegv2-2.8-1.tar.bz2
+2010/09/22 10:58:49 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gcc4/libstdc++6/libstdc++6-4.3.4-3.tar.bz2
+2010/09/22 10:58:51 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/login/login-1.10-10.tar.bz2
+2010/09/22 10:58:57 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/m4/m4-1.4.15-1.tar.bz2
+2010/09/22 10:59:05 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/make/make-3.81-2.tar.bz2
+2010/09/22 10:59:10 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/man/man-1.6f-1.tar.bz2
+2010/09/22 10:59:17 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/mingw-runtime/mingw-runtime-3.18-1.tar.bz2
+2010/09/22 10:59:21 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/rebase/rebase-3.0.1-1.tar.bz2
+2010/09/22 10:59:23 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/run/run-1.1.12-11.tar.bz2
+2010/09/22 10:59:28 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/sed/sed-4.2.1-1.tar.bz2
+2010/09/22 10:59:39 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/tar/tar-1.23-1.tar.bz2
+2010/09/22 10:59:41 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/terminfo/terminfo-5.7_20091114-14.tar.bz2
+2010/09/22 10:59:42 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/terminfo/terminfo0/terminfo0-5.5_20061104-12.tar.bz2
+2010/09/22 10:59:58 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/texinfo/texinfo-4.13-3.tar.bz2
+2010/09/22 11:00:09 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/tzcode/tzcode-2010j-1.tar.bz2
+2010/09/22 11:00:45 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/w32api/w32api-3.15-1.tar.bz2
+2010/09/22 11:00:47 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/which/which-2.20-2.tar.bz2
+2010/09/22 11:00:50 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/xz/xz-4.999.9beta-11.tar.bz2
+2010/09/22 11:00:52 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/zlib/zlib0/zlib0-1.2.5-1.tar.bz2
+2010/09/22 11:00:53 Downloaded T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/_update-info-dir/_update-info-dir-00919-1.tar.bz2
+2010/09/22 11:00:54 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2010/09/22 11:00:55 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/base-cygwin/base-cygwin-2.1-1.tar.bz2
+2010/09/22 11:00:55 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/base-files/base-files-3.9-3.tar.bz2
+2010/09/22 11:00:55 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/base-passwd/base-passwd-3.1-1.tar.bz2
+2010/09/22 11:00:55 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/bash/bash-3.2.51-24.tar.bz2
+2010/09/22 11:00:55 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/binutils/binutils-2.20.51-2.tar.bz2
+2010/09/22 11:00:57 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/bzip2/bzip2-1.0.5-10.tar.bz2
+2010/09/22 11:00:57 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/coreutils/coreutils-8.5-2.tar.bz2
+2010/09/22 11:01:00 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/cygutils/cygutils-1.4.4-1.tar.bz2
+2010/09/22 11:01:00 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/cygwin/cygwin-1.7.7-1.tar.bz2
+2010/09/22 11:01:01 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/cygwin-doc/cygwin-doc-1.7-1.tar.bz2
+2010/09/22 11:01:02 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/dash/dash-0.5.6.1-2.tar.bz2
+2010/09/22 11:01:02 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/diffutils/diffutils-2.9-1.tar.bz2
+2010/09/22 11:01:02 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/editrights/editrights-1.01-2.tar.bz2
+2010/09/22 11:01:02 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/findutils/findutils-4.5.9-1.tar.bz2
+2010/09/22 11:01:02 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/flex/flex-2.5.35-1.tar.bz2
+2010/09/22 11:01:02 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gawk/gawk-3.1.8-1.tar.bz2
+2010/09/22 11:01:03 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gcc/gcc-core/gcc-core-3.4.4-999.tar.bz2
+2010/09/22 11:01:04 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gcc-mingw/gcc-mingw-core/gcc-mingw-core-20050522-1.tar.bz2
+2010/09/22 11:01:04 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gettext/gettext-0.17-11.tar.bz2
+2010/09/22 11:01:04 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/grep/grep-2.6.3-1.tar.bz2
+2010/09/22 11:01:04 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/groff/groff-1.20.1-2.tar.bz2
+2010/09/22 11:01:06 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gzip/gzip-1.3.12-2.tar.bz2
+2010/09/22 11:01:06 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/ipc-utils/ipc-utils-1.0-1.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/less/less-436-1.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/attr/libattr1/libattr1-2.4.43-1.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/bzip2/libbz2_1/libbz2_1-1.0.5-10.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gcc4/libgcc1/libgcc1-4.3.4-3.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gmp/libgmp3/libgmp3-4.3.1-3.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/libiconv/libiconv2/libiconv2-1.13.1-1.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gettext/libintl3/libintl3-0.14.5-1.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gettext/libintl8/libintl8-0.17-11.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/xz/liblzma1/liblzma1-4.999.9beta-11.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/ncurses/libncurses10/libncurses10-5.7-18.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/ncurses/libncurses8/libncurses8-5.5-10.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/ncurses/libncurses9/libncurses9-5.7-16.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/pcre/libpcre0/libpcre0-8.02-1.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/popt/libpopt0/libpopt0-1.6.4-4.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/readline/libreadline7/libreadline7-6.0.3-2.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/libsigsegv/libsigsegv2/libsigsegv2-2.8-1.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/gcc4/libstdc++6/libstdc++6-4.3.4-3.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/login/login-1.10-10.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/m4/m4-1.4.15-1.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/make/make-3.81-2.tar.bz2
+2010/09/22 11:01:07 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/man/man-1.6f-1.tar.bz2
+2010/09/22 11:01:08 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/mingw-runtime/mingw-runtime-3.18-1.tar.bz2
+2010/09/22 11:01:08 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/rebase/rebase-3.0.1-1.tar.bz2
+2010/09/22 11:01:08 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/run/run-1.1.12-11.tar.bz2
+2010/09/22 11:01:08 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/sed/sed-4.2.1-1.tar.bz2
+2010/09/22 11:01:08 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/tar/tar-1.23-1.tar.bz2
+2010/09/22 11:01:09 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/terminfo/terminfo-5.7_20091114-14.tar.bz2
+2010/09/22 11:01:09 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/terminfo/terminfo0/terminfo0-5.5_20061104-12.tar.bz2
+2010/09/22 11:01:09 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/texinfo/texinfo-4.13-3.tar.bz2
+2010/09/22 11:01:10 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/tzcode/tzcode-2010j-1.tar.bz2
+2010/09/22 11:01:13 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/w32api/w32api-3.15-1.tar.bz2
+2010/09/22 11:01:14 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/which/which-2.20-2.tar.bz2
+2010/09/22 11:01:14 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/xz/xz-4.999.9beta-11.tar.bz2
+2010/09/22 11:01:14 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/zlib/zlib0/zlib0-1.2.5-1.tar.bz2
+2010/09/22 11:01:14 Extracting from file://T:\Users\hkhani-cc\Downloads/http%3a%2f%2fcygwin.mirrors.hoobly.com%2f/release/_update-info-dir/_update-info-dir-00919-1.tar.bz2
+2010/09/22 11:01:14 Changing gid back to original
+2010/09/22 11:01:14 running: T:\cygwin\bin\bash.exe --norc --noprofile /etc/postinstall/000-cygwin-post-install.sh
+2010/09/22 11:01:17 running: T:\cygwin\bin\bash.exe --norc --noprofile /etc/postinstall/passwd-grp.sh
+2010/09/22 11:01:18 running: T:\cygwin\bin\bash.exe --norc --noprofile /etc/postinstall/terminfo0.sh
+2010/09/22 11:01:23 running: T:\cygwin\bin\bash.exe --norc --noprofile /etc/postinstall/update-info-dir.sh
+2010/09/22 11:01:29 running: T:\cygwin\bin\bash.exe --norc --noprofile /etc/postinstall/coreutils.sh
+2010/09/22 11:01:30 running: T:\cygwin\bin\bash.exe --norc --noprofile /etc/postinstall/terminfo.sh
+2010/09/22 11:01:36 running: T:\cygwin\bin\bash.exe --norc --noprofile /etc/postinstall/bash.sh
+2010/09/22 11:01:36 running: T:\cygwin\bin\bash.exe --norc --noprofile /etc/postinstall/base-files-profile.sh
+2010/09/22 11:01:38 running: T:\cygwin\bin\bash.exe --norc --noprofile /etc/postinstall/base-files-mketc.sh
+2010/09/22 11:01:39 running: T:\cygwin\bin\bash.exe --norc --noprofile /etc/postinstall/man.sh
+2010/09/22 11:01:39 running: T:\cygwin\bin\bash.exe --norc --noprofile /etc/postinstall/gcc-mingw-core.sh
+2010/09/22 11:01:39 running: T:\cygwin\bin\bash.exe --norc --noprofile /etc/postinstall/gcc.sh
+2010/09/22 11:01:40 Changing gid to Administrators
+2010/09/22 11:01:42 note: Installation Complete
+2010/09/22 11:01:42 Ending cygwin install
